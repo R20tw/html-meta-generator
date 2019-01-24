@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+    <HTMLMetadataGenerator/>
   </div>  
 </template>
 

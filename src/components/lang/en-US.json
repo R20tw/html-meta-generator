@@ -1,0 +1,11 @@
+{
+    "basic": {
+        "cardTitle": "基本",
+        "cardSubtitle": "基本的網頁資料",
+        "cardComment": "HTML Basic MetaData",
+        "title": {
+            "title": "",
+            "example": "Webpage Title"
+        }
+    }
+}

@@ -1,13 +1,15 @@
 {
-    "basic" : {
-      "title" : {
-          "title" : "網頁標題",
-          "example" : "早安！我的朋友！"
-      },
-      "description" : {
-          "title" : "網頁簡介",
-          "example" : "這是一個簡介的範例"
-      }
-      
+    "basic": {
+        "cardTitle": "基本",
+        "cardSubtitle": "基本的網頁資料",
+        "cardComment": "HTML Basic MetaData",
+        "title": {
+            "title": "網頁標題",
+            "example": "早安！我的朋友！"
+        },
+        "description": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例"
+        }
     }
-  }
+}

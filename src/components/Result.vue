@@ -2,27 +2,29 @@
     <div>
 <div class="mdui-textfield">
   <label class="mdui-textfield-label">Code</label>
-  <textarea class="mdui-textfield-input" disabled v-text="textGenerator()"></textarea>
+  <textarea class="mdui-textfield-input" v-text="textGenerator()"></textarea>
 </div>
     </div>
 </template>
 
 <script>
-import { MLBuilder } from 'vue-multilanguage'
-
 export default {
   name: 'Result',
-  computed: {
+  methods: {
       textGenerator() {
           var tmp = "";
           this.fieldsData.forEach((type) => {
-              tmp += `<!-- ${new MLBuilder(type.comment)} -->`
+              tmp += `<!-- ${this.$ml.get(type.comment)} -->\n`
+              type.fields.forEach((field) => {
+                  tmp += field.code.replace("{{value}}",field.value) + "\n";
+              })
+              tmp += "\n\n";
           })
           return(tmp)
       }
   },
   props: {
-      fieldsData : Object
+      fieldsData : Array
   }
 }
 </script>

@@ -2,7 +2,7 @@
   <div>
     <div class="mudi-row">
       <div class="mdui-col-xs-6" v-for="fieldsData in data" :key="fieldsData.title">
-        <FieldsCard v-bind:fieldsData="fieldsData"></FieldsCard>
+        <FieldsCard v-bind:fieldsData="fieldsData" v-on:valueChanged="updateValue"></FieldsCard>
       </div>
     </div>
     <div class="mudi-row">
@@ -25,8 +25,9 @@ export default {
     Result
   },
   data() {
+    var tmp = {};
     if (this.HMsData == undefined) {
-      this.HMsData = [
+      tmp = [
         {
           title: "basic.cardTitle",
           subtitle: "basic.cardSubtitle",
@@ -47,10 +48,21 @@ export default {
           ]
         }
       ];
+    } else {
+      tmp = Object.assign(this.HMsData);
     }
     return {
-      data: this.HMsData
+      data: Object.assign(tmp)
     };
+  },
+  methods: {
+    updateValue(key, value) {
+      this.data.forEach(el => {
+        if (el.title == key) {
+          el = value;
+        }
+      });
+    }
   },
   props: {
     HMsData: Object

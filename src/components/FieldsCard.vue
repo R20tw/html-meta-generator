@@ -11,6 +11,7 @@
         v-bind:title="fieldData.title"
         v-bind:value="fieldData.value"
         v-bind:example="fieldData.example"
+        v-bind:tip="fieldData.tip"
         v-on:valueChanged="updateValue"
       ></Field>
     </div>

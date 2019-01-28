@@ -6,6 +6,7 @@
       v-bind:placeholder="$ml.get(example)"
       v-on:input="updateValue($event.target.value)"
     >
+    <div class="mdui-textfield-helper">{{ $ml.get(tip) }}</div>
   </div>
 </template>
 
@@ -15,7 +16,8 @@ export default {
   props: {
     value: String,
     title: String,
-    example: String
+    example: String,
+    tip: String
   },
   methods: {
     updateValue(value) {

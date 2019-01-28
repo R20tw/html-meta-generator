@@ -1,15 +1,257 @@
 {
     "basic": {
+        "cardTitle": "基本資料",
+        "cardSubtitle": "基本的網頁資訊",
+        "cardComment": "HTML MetaData",
+        "title": {
+            "title": "網頁標題",
+            "example": "早安！我的朋友！",
+            "tip": "將會顯示在標題上"
+        },
+        "description": {
+            "title": "簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "keywords": {
+            "title": "關鍵字",
+            "example": "Vue.js,Metadata",
+            "tip": "有關網頁的字詞"
+        },
+        "subject": {
+            "title": "主旨",
+            "example": "產生 Metadata 的網頁",
+            "tip": ""
+        },
+        "copyright": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "language": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "topic": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "summary": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "author": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "designer": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "copyright": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "owner": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "category": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "coverage": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "distribution": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        }
+    },
+    "ogBasic": {
+        "cardTitle": "OpenGraph 基本資料",
+        "cardSubtitle": "OpenGraph 的網頁基本資料 (對 Facebook 有用)",
+        "cardComment": "OpenGraph",
+        "title": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "type": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "url": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "image": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "site_name": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "site_name": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        }
+    },
+    "ogContact": {
         "cardTitle": "基本",
         "cardSubtitle": "基本的網頁資料",
         "cardComment": "HTML Basic MetaData",
-        "title": {
-            "title": "網頁標題",
-            "example": "早安！我的朋友！"
-        },
-        "description": {
+        "email": {
             "title": "網頁簡介",
-            "example": "這是一個簡介的範例"
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "phone_number": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "fax_number": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "latitude": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "longitude": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "streetAddress": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "locality": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "region": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "postalCode": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "countryName": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        }
+    },
+    "ogVideo": {
+        "cardTitle": "基本",
+        "cardSubtitle": "基本的網頁資料",
+        "cardComment": "HTML Basic MetaData",
+        "video": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "videoHeight": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "videoWidth": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "videoType": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        }
+    },
+    "ogAudio": {
+        "cardTitle": "基本",
+        "cardSubtitle": "基本的網頁資料",
+        "cardComment": "HTML Basic MetaData",
+        "audio": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "audioTitle": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "autdioArtist": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "audioAlbum": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "audioType": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        }
+    },
+    "twitter": {
+        "cardTitle": "基本",
+        "cardSubtitle": "基本的網頁資料",
+        "cardComment": "HTML Basic MetaData",
+        "card": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "site": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        },
+        "creator": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
+        }
+    },
+    "other": {
+        "cardTitle": "基本",
+        "cardSubtitle": "基本的網頁資料",
+        "cardComment": "HTML Basic MetaData",
+        "facebookPageID": {
+            "title": "網頁簡介",
+            "example": "這是一個簡介的範例",
+            "tip": ""
         }
     }
 }
